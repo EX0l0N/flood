@@ -32,7 +32,7 @@ This is how it looks like after flood has been applied.
 
 You may have noticed, that flood created some artificial regions of high contrast. These appear where the extended borders of neighbouring islands clash together.  
 Effectively the algorithm creates an unintended [watershed transformation](https://en.wikipedia.org/wiki/Watershed_(image_processing)) here.  
-In most cases these regions will be far away from the real texture so that the compression are-facts they create do not have an impact on the contents of the texture.  
+In most cases these regions will be far away from the real texture so that the compression artefacts they create do not have an impact on the contents of the texture.  
 Still I'm not too happy with it and I admire how Meshlab solves the problem.
 
 ## How to use
